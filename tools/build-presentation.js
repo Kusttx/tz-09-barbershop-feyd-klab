@@ -1,5 +1,5 @@
 /*
- * Сборка презентации к защите: node presentation/build.js
+ * Сборка презентации к защите: node tools/build-presentation.js
  * Кадры берутся из screens/kursovaya/. Если кадра ещё нет, на слайде остаётся рамка с именем файла —
  * положите снимок с этим именем и пересоберите, либо вставьте его в PowerPoint вручную.
  * PDF: откройте zashchita.pptx → Файл → Экспорт → PDF → presentation/zashchita.pdf
@@ -153,4 +153,4 @@ res.forEach((r, i) => {
   s.addText(r[1], { x: x + 0.3, y: y + 0.9, w: 5.4, h: 1.0, fontFace: BODY, fontSize: 20, color: LINEN, margin: 0, isTextBox: true, valign: 'top' });
 });
 
-pres.writeFile({ fileName: path.join(__dirname, 'zashchita.pptx') }).then((f) => console.log('Готово:', f));
+pres.writeFile({ fileName: path.join(ROOT, 'presentation', 'zashchita.pptx') }).then((f) => console.log('Готово:', f));

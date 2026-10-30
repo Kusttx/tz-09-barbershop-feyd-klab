@@ -31,19 +31,19 @@
 ## Структура
 
 ```
-index.html services.html masters.html works.html style-quiz.html contacts.html thanks.html privacy.html 404.html
-css/style.css
-js/analytics.js   все события GA4
-js/main.js        меню, UTM, фильтры, расписание
-js/form.js        календарь, проверка и отправка формы
-js/quiz.js        тест «Форма лица», промокод
-js/thanks.js      номер записи и файл .ics
-img/  files/fadeclub-price.pdf
-apps-script/Code.gs, appsscript.json
-docs/             prompts, events, utm.csv, images, report, opisanie, scheme.png, afisha.pdf, qr-u-12.png, nastroika
-screens/          ga4 utm instagram reports explore datalens lighthouse kursovaya
-presentation/     zashchita.pdf, zashchita.pptx, build.js
-tools/set-config.js
+tz-09-barbershop-feyd-klab/
+├── index.html … 404.html   9 страниц сайта (в корне — так их публикует Vercel)
+├── robots.txt, sitemap.xml для поисковиков
+├── css/          style.css
+├── js/           analytics.js — все события GA4 · form.js — запись и отправка
+│                 main.js — меню, UTM, фильтры · quiz.js — тест · thanks.js — файл .ics
+├── img/          иллюстрации, превью для соцсетей, значки сайта
+├── files/        прайс в PDF
+├── apps-script/  приёмник заявок Code.gs и appsscript.json
+├── docs/         запросы, события, реестр UTM, записка, описание, схема, афиша, QR, настройка
+├── screens/      снимки: ga4, utm, instagram, reports, explore, datalens, lighthouse, kursovaya
+├── presentation/ zashchita.pdf и zashchita.pptx
+└── tools/        set-config.js — настройки сайта · build-presentation.js — сборка презентации
 ```
 
 ## Настройка

@@ -12,7 +12,7 @@
 | `img/masters/m01…m08.webp` | портреты 8 мастеров (фон по уровню: чёрный — бренд, графит — топ, бежевый — барбер) | masters.html, index.html | 480 × 600 |
 | `img/map.webp` | схема проезда к ул. Кузнечной, 5 | contacts.html | 640 × 400 |
 | `img/og-image.jpg` | превью ссылки: «−20% на первую стрижку» | og:image всех страниц | 1200 × 630 |
-| `img/favicon.svg`, `favicon.ico`, `img/apple-touch-icon.png` | ножницы на чёрном | значок сайта | 32 / 180 px |
+| `img/favicon.svg`, `img/favicon.ico`, `img/apple-touch-icon.png` | ножницы на чёрном | значок сайта | 32 / 180 px |
 
 Самый большой файл — `img/og-image.jpg`, 69 КБ; все остальные меньше 10 КБ (ограничение ТЗ — 300 КБ).
 У каждого `<img>` заполнен атрибут `alt`.

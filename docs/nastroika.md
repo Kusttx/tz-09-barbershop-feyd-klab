@@ -125,6 +125,6 @@ Traffic acquisition → Share this report → Download File → CSV → `docs/re
    - `12-ga4-traffic.png` — Traffic acquisition с кампанией;
    - `13-datalens-campaigns.png` — вкладка «Кампании»;
    - `screens/lighthouse/index-mobile.png`.
-4. Презентация: либо `npm i pptxgenjs` и `node presentation/build.js` (кадры подставятся сами), либо откройте `presentation/zashchita.pptx`, удалите пунктирные рамки и вставьте снимки. Затем Файл → Экспорт → PDF → `presentation/zashchita.pdf`. На первый слайд добавьте ФИО и группу.
+4. Презентация: либо `npm i pptxgenjs` и `node tools/build-presentation.js` (кадры подставятся сами), либо откройте `presentation/zashchita.pptx`, удалите пунктирные рамки и вставьте снимки. Затем Файл → Экспорт → PDF → `presentation/zashchita.pdf`. На первый слайд добавьте ФИО и группу.
 5. Видео до 60 секунд на случай плохой сети на защите: ссылка с UTM → форма → строка в таблице → generate_lead в Realtime.
 6. Перед сдачей отключите расширение GA Debugger (в коде отладки нет).
