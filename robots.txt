@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+
+Sitemap: https://tz-09-barbershop-feyd-klab.vercel.app/sitemap.xml
