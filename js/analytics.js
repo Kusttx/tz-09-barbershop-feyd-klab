@@ -68,10 +68,7 @@
   document.addEventListener('click', function (e) {
     var el = e.target.closest('[data-event]');
     if (!el) return;
-    var name = el.dataset.event;
-    // кнопка формы отправляет cta_click, только если форма прошла проверку — это делает form.js
-    if (el.type === 'submit') return;
-    track(name, paramsFromData(el));
+    track(el.dataset.event, paramsFromData(el));
   });
 
   // Строки таблицы цен можно выбрать с клавиатуры (Enter) — тоже service_view
