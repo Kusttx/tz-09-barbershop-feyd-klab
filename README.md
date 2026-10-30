@@ -29,7 +29,7 @@
 - **Instagram** — ManyChat: «СТРИЖКА» ведёт на тест «Форма лица» с промокодом FIRST20, «ПОДАРОК» — на сертификаты.
 - **Отчёты** — стандартные отчёты и исследования GA4, оповещение, аналитическая записка [docs/report.md](docs/report.md), дашборд DataLens из трёх вкладок.
 
-Описание работы с кадрами — [docs/opisanie.md](docs/opisanie.md), схема — [docs/scheme.png](docs/scheme.png).
+Описание работы с кадрами — [docs/opisanie.md](docs/opisanie.md), схема — [docs/scheme.png](docs/scheme.png), текст выступления — [docs/zashchita-tekst.md](docs/zashchita-tekst.md), что где лежит — [docs/struktura.md](docs/struktura.md).
 
 ## Структура
 
