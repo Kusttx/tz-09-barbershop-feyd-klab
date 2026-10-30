@@ -5,7 +5,7 @@
 | Что | Ссылка |
 |---|---|
 | Сайт на Vercel | https://tz-09-barbershop-feyd-klab-fawn.vercel.app |
-| Таблица заявок «FadeClub — Bookings» | ⟨ссылка на Google Таблицу⟩ |
+| Таблица заявок «FadeClub — Bookings» | https://docs.google.com/spreadsheets/d/1VvPuJ8EsLE4YFzbElOxijllofdqzxtpLOWg4Lim7r7c/edit |
 | Дашборд DataLens | ⟨ссылка на дашборд⟩ |
 | Instagram | ⟨ссылка на профиль⟩ |
 | Reel с автоответами | ⟨ссылка на Reel⟩ |

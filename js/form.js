@@ -7,7 +7,7 @@
   'use strict';
 
   // Адрес веб-приложения Apps Script (Развернуть → Веб-приложение → URL)
-  var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/PASTE_DEPLOYMENT_ID/exec';
+  var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby7pZrUixWcOQzKQdKJzzLUTYNaUYZ2aIkEKPAbYhcElvI_12_SBitkOHVRovKADB_2Cw/exec';
 
   var form = document.getElementById('booking-form');
   if (!form) return;
