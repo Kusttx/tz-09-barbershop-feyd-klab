@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /thanks.html
 
-Sitemap: https://tz-09-barbershop-feyd-klab.vercel.app/sitemap.xml
+Sitemap: https://tz-09-barbershop-feyd-klab-fawn.vercel.app/sitemap.xml

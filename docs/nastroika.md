@@ -14,7 +14,7 @@
 ## 1. Vercel (этап 1, 10 минут)
 
 1. vercel.com → войти через GitHub → **Add New → Project** → выбрать репозиторий → Framework Preset: **Other**, Build Command пусто, Output Directory пусто → **Deploy**.
-2. Settings → General → Project Name: `tz-09-barbershop-feyd-klab`. Адрес станет `https://tz-09-barbershop-feyd-klab.vercel.app`.
+2. Settings → General → Project Name: `tz-09-barbershop-feyd-klab`. Адрес проекта — `https://tz-09-barbershop-feyd-klab-fawn.vercel.app` (короткое имя без суффикса занято другим проектом Vercel).
 3. Если адрес другой, подставьте его везде одной командой и закоммитьте:
    ```
    node tools/set-config.js --site https://ВАШ-АДРЕС.vercel.app
@@ -53,7 +53,7 @@
 
 **Реестр.** Импортируйте `docs/utm.csv` на лист `utm` (Файл → Импорт → Заменить текущий лист). Полная ссылка собирается формулой, а не вручную — в ячейку J2:
 ```
-=СЦЕПИТЬ("https://tz-09-barbershop-feyd-klab.vercel.app/"; ПОДСТАВИТЬ(I2;"#gift";""); "?utm_source="; D2; "&utm_medium="; E2; "&utm_campaign="; F2; "&utm_content="; G2; ЕСЛИ(ЕЧИСЛО(ПОИСК("#";I2)); "#gift"; ""))
+=СЦЕПИТЬ("https://tz-09-barbershop-feyd-klab-fawn.vercel.app/"; ПОДСТАВИТЬ(I2;"#gift";""); "?utm_source="; D2; "&utm_medium="; E2; "&utm_campaign="; F2; "&utm_content="; G2; ЕСЛИ(ЕЧИСЛО(ПОИСК("#";I2)); "#gift"; ""))
 ```
 и протяните вниз. В строках U-10 и U-11 замените `nik_blogera_1` / `nik_blogera_2` на ники двух одногруппников латиницей (и в формуле, и в `docs/utm.csv`).
 

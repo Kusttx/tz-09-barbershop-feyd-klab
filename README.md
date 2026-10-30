@@ -4,7 +4,7 @@
 
 | Что | Ссылка |
 |---|---|
-| Сайт на Vercel | https://tz-09-barbershop-feyd-klab.vercel.app |
+| Сайт на Vercel | https://tz-09-barbershop-feyd-klab-fawn.vercel.app |
 | Таблица заявок «FadeClub — Bookings» | ⟨ссылка на Google Таблицу⟩ |
 | Дашборд DataLens | ⟨ссылка на дашборд⟩ |
 | Instagram | ⟨ссылка на профиль⟩ |
@@ -14,7 +14,7 @@
 | YouTube | ⟨ссылка на Shorts⟩ |
 | Презентация | [presentation/zashchita.pdf](presentation/zashchita.pdf), исходник [zashchita.pptx](presentation/zashchita.pptx) |
 
-Идентификатор ресурса GA4: `⟨G-…⟩`
+Идентификатор ресурса GA4: `G-LKT0RQ9B2E`
 Доступ Viewer к ресурсу GA4 выдан: ⟨e-mail Заказчика⟩
 
 ## Что сделано
@@ -51,7 +51,7 @@ tools/set-config.js
 Идентификатор GA4, адрес приёмника и адрес сайта подставляются одной командой:
 
 ```
-node tools/set-config.js --ga G-XXXXXXXXXX --script https://script.google.com/macros/s/…/exec --site https://tz-09-barbershop-feyd-klab.vercel.app
+node tools/set-config.js --ga G-XXXXXXXXXX --script https://script.google.com/macros/s/…/exec --site https://tz-09-barbershop-feyd-klab-fawn.vercel.app
 ```
 
 Пошаговая настройка сервисов — [docs/nastroika.md](docs/nastroika.md).

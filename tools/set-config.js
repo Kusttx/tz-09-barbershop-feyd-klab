@@ -3,7 +3,7 @@
  * Подставляет в сайт ваши настройки одной командой:
  *   node tools/set-config.js --ga G-ABC123XYZ
  *   node tools/set-config.js --script https://script.google.com/macros/s/AKfy.../exec
- *   node tools/set-config.js --site https://tz-09-barbershop-feyd-klab.vercel.app
+ *   node tools/set-config.js --site https://tz-09-barbershop-feyd-klab-fawn.vercel.app
  * Можно передать всё сразу. Скрипт заменяет текущие значения, поэтому его можно запускать повторно.
  */
 const fs = require('fs');
