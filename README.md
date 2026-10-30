@@ -4,8 +4,11 @@
 
 | Что | Ссылка |
 |---|---|
-| Сайт на Vercel | https://tz-09-barbershop-feyd-klab-fawn.vercel.app |
-| Таблица заявок «FadeClub — Bookings» | https://docs.google.com/spreadsheets/d/1VvPuJ8EsLE4YFzbElOxijllofdqzxtpLOWg4Lim7r7c/edit |
+| Сайт на Vercel | [tz-09-barbershop-feyd-klab-fawn.vercel.app](https://tz-09-barbershop-feyd-klab-fawn.vercel.app) |
+| Запись на время (форма) | [contacts.html](https://tz-09-barbershop-feyd-klab-fawn.vercel.app/contacts.html) |
+| Таблица заявок «FadeClub — Bookings» | [Google Таблица, лист leads](https://docs.google.com/spreadsheets/d/1VvPuJ8EsLE4YFzbElOxijllofdqzxtpLOWg4Lim7r7c/edit) |
+| Приёмник заявок Apps Script | [веб-приложение](https://script.google.com/macros/s/AKfycby7pZrUixWcOQzKQdKJzzLUTYNaUYZ2aIkEKPAbYhcElvI_12_SBitkOHVRovKADB_2Cw/exec), код — [apps-script/Code.gs](apps-script/Code.gs) |
+| Реестр UTM-ссылок | [docs/utm.csv](docs/utm.csv) |
 | Дашборд DataLens | ⟨ссылка на дашборд⟩ |
 | Instagram | ⟨ссылка на профиль⟩ |
 | Reel с автоответами | ⟨ссылка на Reel⟩ |
