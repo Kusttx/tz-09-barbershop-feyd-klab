@@ -12,7 +12,7 @@
 
 // Идентификатор таблицы (часть адреса между /d/ и /edit). Если скрипт создан
 // из самой таблицы, можно оставить пустым — возьмётся активная таблица.
-var SPREADSHEET_ID = '';
+var SPREADSHEET_ID = '1VvPuJ8EsLE4YFzbElOxijllofdqzxtpLOWg4Lim7r7c';
 var SHEET_NAME = 'leads';
 
 var HEADERS = ['request_id', 'created_at', 'name', 'phone', 'email', 'service', 'master_level',
